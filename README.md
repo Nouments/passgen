@@ -19,16 +19,13 @@ Build CLi with golang
 Usage of binary (.exe for windows)
 ```bash
 $ chmod +x passgen
-$ ./passgen
+$ ./passgen -l 12
 ```
 ## Result
 
 
 ```bash
-$ chmod +x passgen
-$ ./passgen
-Entered password lenth: 
-12
+$ ./passgen -l 12
 Generated password: Z2{zLBx+^hSe
 
 ```
